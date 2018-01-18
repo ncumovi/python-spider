@@ -45,4 +45,4 @@ class htmlParser(object):
         soup = BeautifulSoup(html_cont,'html.parser',from_encoding='utf-8')  #用bs4解析html
         new_urls = self._get_new_urls(page_url,soup)
         new_data = self._get_new_data(page_url,soup)
-        return new_urls,new_data 
+        return new_urls,new_data #返回新的地址以及新的数据
