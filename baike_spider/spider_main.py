@@ -6,9 +6,9 @@ sys.setdefaultencoding('utf-8')
 #获得系统编码格式  
 type = sys.getfilesystemencoding() 
 
-#引入相关模块 并实例化
+#引入相关模块 
 import url_manager,html_downloader,html_parser,html_outputer
-
+#实例化相关模块 
 urls = url_manager.UrlManager()
 downloader = html_downloader.HtmlDownLoader()
 parser = html_parser.htmlParser()
