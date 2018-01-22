@@ -5,7 +5,7 @@
 
 #### Python的版本问题
 
-Python3的版本还不够稳定，网上的许多第三方库还无法支持，故而选择Python2.x
+ Python3的版本还不够稳定，网上的许多第三方库还无法支持，故而选择Python2.x
 
 #### Python的下载
 
@@ -17,13 +17,13 @@ Python3的版本还不够稳定，网上的许多第三方库还无法支持，�
 
 #### html下载器
 
-使用python自带的模块**urllib2** 下载HTML
+ 使用python自带的模块**urllib2** 下载HTML
 
 #### HTML解析器
 
-我们使用BeautifulSoup来解析HTML,操作相关dom等。
+ 我们使用BeautifulSoup来解析HTML,操作相关dom等。
 
-[中文官网地址](http://beautifulsoup.readthedocs.io/zh_CN/v4.4.0/)
+ [中文官网地址](http://beautifulsoup.readthedocs.io/zh_CN/v4.4.0/)
 
 #### 结果以html形式输出
 
